@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+header {
+	padding: 32px;
+}
+body {background-image: url(gradient.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	background-attachment: fixed;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100px;
+    margin-bottom: 10px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #8059a7;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+
+.style-nav ul li :hover {color: white;}
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.footer-text {
+	font-size: 13px;
+    color: #8059a7;
+	margin-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {text-align: center;
+margin-top: 10px;
+margin-bottom: 15px;
+color: white;}
+
+.eaj {width: 450px;
+        height: 450px;
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease-in; */}
+.eaj:hover {
+    width: 470px;
+    height: 620px;
+    z-index: 6;
+}
+
+.feels {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.feels:hover {
+width: 470px;
+height: 620px;
+z-index: 5;
+}
+
+.sully {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.sully:hover {
+width: 470px;
+height: 620px;
+z-index: 4;
+}
+
+.winter {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.winter:hover {
+width: 470px;
+height: 620px;
+z-index: 3;
+}
+
+.prey {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.prey:hover {
+width: 470px;
+height: 620px;
+z-index: 3;
+}
+
+.prac {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.prac:hover {
+width: 470px;
+height: 620px;
+z-index: 2;
+}
+
+.nxu {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.nxu:hover {
+width: 480px;
+height: 480px;
+z-index: 4;
+}
+
+.bc1 {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.bc1:hover {
+width: 480px;
+height: 480px;
+z-index: 3;
+}
+
+.bc2 {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.bc2:hover {
+width: 620px;
+height: 350px;
+z-index: 2;
+}
+
+.bc3 {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.bc3:hover {
+width: 620px;
+height: 350px;
+z-index: 1;
+}
+
+.lg {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.lg:hover {
+width: 480px;
+height: 480px;
+z-index: 3;
+}
+
+.en1 {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.en1:hover {
+width: 620px;
+height: 400px;
+z-index: 2;
+}
+
+.en2 {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.en2:hover {
+width: 480px;
+height: 620px;
+z-index: 1;
+}
+
+.pen {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.pen:hover {
+width: 480px;
+height: 480px;
+z-index: 3;
+}
+
+.jett {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.jett:hover {
+width: 480px;
+height: 480px;
+z-index: 2;
+}
+
+.hp {width: 450px;
+    height: 450px;
+position: relative;
+/* transition-property: background, border-radius; */
+transition-property: all;
+transition-duration: 1s;
+/* transition-delay: 2s; */
+/* transition-timing-function: linear; */
+/* transition-timing-function: ease-in; */}
+.hp:hover {
+width: 480px;
+height: 480px;
+z-index: 1;
+}
+
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+}
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+
+    .eaj {width: 300px;
+        height: 300px;}
+
+    .feels {width: 300px;
+            height: 300px;}
+    .sully {width: 300px;
+            height: 300px;}
+    .winter {width: 300px;
+            height: 300px;}
+    .prey {width: 300px;
+            height: 300px;}
+    .prac {width: 300px;
+            height: 300px;}
+	.nxu {width: 300px;
+			height: 300px;}
+			.bc1 {width: 300px;
+				height: 300px;}
+				.bc2 {width: 300px;
+					height: 300px;}
+					.bc3 {width: 300px;
+						height: 300px;}
+	.lg {width: 300px;
+		height: 300px;}
+		.en1 {width: 300px;
+			height: 300px;}
+			.en2 {width: 300px;
+				height: 300px;}
+				.pen {width: 300px;
+					height: 300px;}
+					.jett {width: 300px;
+						height: 300px;}
+						.hp {width: 300px;
+							height: 300px;}
+    
+}
